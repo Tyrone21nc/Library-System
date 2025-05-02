@@ -13,4 +13,15 @@
 The books are stored in an array called m_bookCatalog and it stores Book objects.
 Book is an object with, book title, author name, book rating, and year it was published
 
+## Note
+- Some files are just for the output, so their code doesn't really look that digestable (files that end with ".exe", ".o")
+- the makefile is used for easy compilation but only works if you have the correct system for it, if not to compile just do this:
+      - g++ -Wall Library.cpp Book.cpp proj2.cpp -o output
+      - and when you're ready to actually run the output and see the results, do this: ./output
+      - the output part can be anything, it's just what name you want to use when outputing, it can be:
+          g++ -Wall Library.cpp Book.cpp proj2.cpp -o *out*
+          g++ -Wall Library.cpp Book.cpp proj2.cpp -o *book*
+          g++ -Wall Library.cpp Book.cpp proj2.cpp -o *whatever*
+          then you can do: ./out   or ./book   or ./whatever to run the program
+
 
